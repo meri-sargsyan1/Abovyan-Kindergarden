@@ -1,0 +1,32 @@
+{
+  "requests": [
+    {
+      "tel": "0999999999999",
+      "id": 1
+    },
+    {
+      "tel": "098771255",
+      "id": 2
+    },
+    {
+      "tel": "098771255",
+      "id": 3
+    }
+  ],
+  "messages": [
+    {
+      "name": "mekel karas nenc gres vor enteri depum ijni hajord inputi vra",
+      "tel": "098771255",
+      "email": "kneresok@mail.ru",
+      "mes": "hccmsdmldvdjdsnmc,",
+      "id": 1
+    },
+    {
+      "name": "lianna",
+      "tel": "098771255",
+      "email": "liana.galstyan.87@mail.ru",
+      "mes": "barev paymannery kaseq\n",
+      "id": 2
+    }
+  ]
+}
