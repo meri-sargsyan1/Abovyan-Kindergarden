@@ -1,0 +1,70 @@
+footer {
+    width: 100%;
+    background-color: rgb(238, 215, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+
+    .ikona {
+        width: 750px;
+        padding: 20px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .fb {
+            height: 50px;
+            width: 50px;
+
+            i {
+                color: rgb(38, 0, 230);
+            }
+        }
+
+        .inst {
+            height: 50px;
+            width: 50px;
+
+            i {
+                color: rgb(206, 32, 32);
+            }
+        }
+
+        .tw {
+            height: 50px;
+            width: 50px;
+
+            i {
+                color: rgb(58, 101, 246);
+            }
+        }
+
+        .in {
+            height: 50px;
+            width: 50px;
+
+            i {
+                color: rgb(180, 18, 147);
+            }
+        }
+    }
+
+    .kapmezhet {
+        width: 750px;
+        padding: 20px;
+        color: black;
+        text-align: center;
+    }
+
+    h3 {
+        color: rgb(144, 39, 39);
+        font-size: 25px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+}

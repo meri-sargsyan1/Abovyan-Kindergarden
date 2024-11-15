@@ -1,0 +1,43 @@
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background: rgba(0, 0, 0, .5);
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    &__content{
+        padding: 50px 20px;
+        width: 750px;
+        height: 550px;
+        background: white;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        animation: animation .4s ease-out;
+
+        @keyframes animation {
+            from{
+                transform: translateX(200%);
+            }
+            to{
+                transform: translateX(0);
+            }
+        }
+    }
+
+    &__close{
+        font-size: 28px;
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        cursor: pointer;
+    }
+}

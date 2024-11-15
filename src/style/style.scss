@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    width: 100%;
+    background-color: rgb(245, 218, 239);
+    margin-top: 15px;
+
+    >p {
+        text-align: center;
+        padding: 25px;
+        font-size: x-large;
+    }
+}

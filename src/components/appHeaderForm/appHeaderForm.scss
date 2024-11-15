@@ -1,0 +1,134 @@
+.img {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: flex-end;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .give-your-number {
+        width: 40%;
+        position: absolute;
+        padding: 20px;
+        background-color: rgba(111, 111, 111, 0.4);
+        border-radius: 10px;
+        margin-right: 50px;
+
+        b {
+            font-size: 17px;
+           
+        }
+
+        form {
+            input {
+                display: block;
+                border: none;
+                width: 100%;
+                margin: 5px 0;
+                height: 40px;
+
+                &[placeholder] {
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                &:hover {
+                    font-size: 17px;
+                    border: solid 1px rgb(100, 100, 100);
+                }
+
+                &:last-child:hover {
+                    background-color: rgb(140, 140, 140);
+                    color: rgb(40, 40, 40);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        .give-your-number {
+            display: none;
+        }
+    }
+}
+
+.kapmed {
+    padding: 20px;
+    width: 100%;
+    min-width: 200px;
+    background-color: rgba(111, 111, 111, 0.4);
+    border-radius: 10px;
+    margin: 0 auto;
+    display: none;
+
+    b {
+        font-size: 17px;
+        max-width: 200px;
+    }
+    form{
+        width: 100%;
+    }
+
+    input {
+        display: block;
+        border: none;
+        width: 100%;
+        margin: 5px 0;
+        height: 40px;
+
+        &[placeholder] {
+            padding: 10px;
+            text-align: center;
+        }
+
+        &:hover {
+            border: solid 1px rgb(100, 100, 100);
+        }
+
+        &:last-child:hover {
+            background-color: rgb(140, 140, 140);
+            color: rgb(40, 40, 40);
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    img{
+        margin-bottom: 20px;
+    }
+    .kapmed {
+        display: flex;
+
+        .form__msg{
+            font-size: 13px;
+        }
+    }
+}
+@media screen and (max-width:430px) {
+    .kapmed b {
+        font-size: 16px;
+        max-width: 175px;
+    }
+}
+@media screen and (max-width:400px) {
+    .kapmed{
+        height: 120px;
+        padding: auto;
+
+        input{
+            height: 35px;
+        }
+
+        b{
+            font-size: 15px;
+            max-width: 150px;
+        }
+    }
+}
